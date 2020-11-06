@@ -11,5 +11,7 @@ export class AppFormComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  print(...args) {
+    console.log(args[0].value + '\n' + args[1].value);
+  }
 }
